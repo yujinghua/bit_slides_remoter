@@ -8,7 +8,7 @@ So far, there are versions as follows.
 |   | Common Slides Files | HTML Slides |
 | - | ------------------- | ----------- |
 |#1 Button| x | x |
-|#2 Gestures (X & Y accelerate meter)| x | TODO |
+|#2 Gestures (X & Y accelerate meter)| x | TODO|
 |#3 Both C#1 & C#2| x | TODO |
 |#4 ... TODO|  |  |
 
@@ -30,12 +30,8 @@ There are two options here.
 You can create a HTML slides by using jupyter lab/notebook. One example is in ‘webbtExamples'
 1) Create a new .ipynb file
 2) In order to connect it to Mirco:bit via web bluetooth, add a button with Markdown context in the first cell  as follows:
-<pre><code>
-    Here is the codes:
-    <button onclick="connect()">Connect</button>
-    <script src="btnWebbt.js"></script>
-</code></pre>
-    
+
+<img src="/fig/cell_code.png" width="400" height="40" alt="cell code"/>
 
 3) Design your slides in the following cells
 4) Export Notebook As … -> Export Notebook as Reveal.js Slides
@@ -72,5 +68,8 @@ shake alone y axis to the down side -> next slide
 3) Configure the project as follows:
 Gear wheel -> Project Settings -> No Pairing Required: Anyone can connect via Bluetooth.
 Gear wheel -> Extensions -> enable ‘bluetooth' (which will disable the ‘radio' module)
-4) Draw your codes
+4) Draw your codes as below
 5) Connect micro:bit via USB to download codes or download .hex file and drag it into micro:bit
+
+<img src="/fig/bit_code.png" width="350" height="190" alt="cell code"/>
+
