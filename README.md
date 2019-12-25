@@ -18,10 +18,10 @@ Here is the DIY guideline for this Micro:bit Slides Remoter.
 Tests on other OS -> TODO)
 
 ### Prepare Mirco:bit
-1) Buy the HW
+1) Buy the HW:
 BBC Micro:bit with necessary accessories (batteries, cables, cool case)
 More details in https://microbit.org .
-2) Sownload 'microbit-SlidesRemoter.hex' into your Micro:bit.
+2) Download 'microbit-SlidesRemoter.hex' into your Micro:bit.
 3) Done !
 
 ### Prepare your slides
