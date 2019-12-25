@@ -56,7 +56,7 @@ def acc_handler(sender, data):
     # print("A - {0}: {1}".format(sender, data))
     global FTiltR, FTiltL
     # right
-    if (FTiltR == 0) and (accX > 1500) and (accY > -800):
+    if (FTiltR == 0) and ((accX > 1500) and (accY > -800)):
         pyautogui.press('right')
         FTiltR = 1
     elif (FTiltR == 1) and (accX < 400):
@@ -87,10 +87,9 @@ async def run(address, lp):
         while not FStop:
             await asyncio.sleep(0.5)
 
-        await client.stop_notify(BUTTON_A_CHAR_UUID)
-        await client.stop_notify(BUTTON_B_CHAR_UUID)
-        await client.stop_notify(ACC_DATA_CHAR_UUID)
-
+        # await client.stop_notify(BUTTON_A_CHAR_UUID)
+        # await client.stop_notify(BUTTON_B_CHAR_UUID)
+        # await client.stop_notify(ACC_DATA_CHAR_UUID)
 
 
 if __name__ == '__main__':

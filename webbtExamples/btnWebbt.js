@@ -23,8 +23,8 @@ function connect() {
 	navigator.bluetooth.requestDevice({
         filters: [{
         	namePrefix: 'BBC micro:bit',
-        }]//,
-        // optionalServices: [BUTTON_SERVICE_UUID] 
+        }],
+        optionalServices: [BUTTON_SERVICE_UUID] 
     })
         .then(device => {
             console.log('name = ', device.name);
