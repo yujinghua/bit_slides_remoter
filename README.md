@@ -71,5 +71,5 @@ Gear wheel -> Extensions -> enable ‘bluetooth' (which will disable the ‘radi
 4) Draw your codes as below
 5) Connect micro:bit via USB to download codes or download .hex file and drag it into micro:bit
 
-<img src="/fig/bit_code.png" width="350" height="190" alt="cell code"/>
+<img src="/fig/nbit_code.png" width="350" height="190" alt="cell code"/>
 
